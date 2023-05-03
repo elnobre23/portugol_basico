@@ -6,7 +6,7 @@ Var
 
 Inicio
 
-   escreval("Preço unitário do produto: ")
+   escreval("PreÃ§o unitÃ¡rio do produto: ")
    leia(preco_unitario)
 
    escreval("Quantidade comprada: ")
@@ -15,7 +15,7 @@ Inicio
    escreval("Dinheiro recebido: ")
    leia(pagamento)
 
-   se pagamento > (quantidade * preco_unitario) entao
+   se pagamento >= (quantidade * preco_unitario) entao
       troco <- pagamento - quantidade * preco_unitario
       escreval("Troco: R$ ", troco:4:2)
    senao
